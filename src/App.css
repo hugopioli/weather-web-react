@@ -1,38 +1,119 @@
 .App {
+	text-align: center;
+  margin: 0 auto;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	color: #FFFFFF;
+	text-align: center;
+	width: 100%;
+}
+
+.menu-item {
+	color: #FFFFFF;
+}
+
+.main-icon,
+.big-data h2 {
+  font-size: 3em;
+  color: #FFFFFF;
+	border-radius: 50%;
+	padding: 20px;
+	margin: 20px 0 20px 0;
+	display: inline-block;
+  border-top: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.big-data h2 {
+  color: #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	border-radius: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.big-data h2,
+.main-city,
+.main-description {
+  color: #FFFFFF;
+	font-weight: 3em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main-content {
+  color: #FFFFFF;
+	display: contents;
 }
 
-.App-link {
-  color: #61dafb;
+.main-description {
+  color: #FFFFFF;
+	font-size: 2.5em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-city {
+  color: #FFFFFF;
+	font-size: 1em;
+}
+
+.main-feels-like {
+  color: #FFFFFF;
+	font-size: 50;
+}
+
+.cities-details > tbody > tr > td {
+	color: #FFFFFF !important;
+  font-size: 50;
+  letter-spacing: 30;
+}
+
+
+.weather-details > tbody > tr > td {
+	color: #FFFFFF !important;
+	font-size: 100;
+	letter-spacing: 0.1em;
+}
+
+.whole-details-area {
+  color: #FFFFFF;
+	padding: 20px 2% 80px;
+	font-weight: 400;
+}
+
+.whole-details-area h4 {
+  color: #FFFFFF;
+	font-size: 1em;
+	margin: 10px auto;
+}
+
+svg.MuiSvgIcon-root-103 {
+	color: #FFFFFF;
+}
+
+.boiling,
+img {
+  background-image: url(assets/boiling.jpg); 
+}
+
+.hot,
+img {
+  background-image: url(assets/hot.jpg);
+}
+
+.warm,
+img  {
+  background-image: url(assets/warm.jpg);
+}
+
+.perfect,
+img  {
+  background-image: url(assets/perfect.jpg);
+}
+
+.cool,
+img {
+  background-image: url(assets/cool.jpg);
+}
+
+.freesing,
+img {
+  background-image: url(assets/freezing.jpg);
 }
